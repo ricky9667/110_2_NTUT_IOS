@@ -15,6 +15,7 @@
 		9AF618D8285909F5008562F1 /* imageClassificationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF618D7285909F5008562F1 /* imageClassificationUITests.swift */; };
 		9AF618DA285909F5008562F1 /* imageClassificationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF618D9285909F5008562F1 /* imageClassificationUITestsLaunchTests.swift */; };
 		9AF618E728591128008562F1 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF618E628591128008562F1 /* UIImage+Extensions.swift */; };
+		A26E0F7928622F3B00E1C4F3 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A26E0F7828622F3B00E1C4F3 /* Resnet50.mlmodel */; };
 		A2703828285F8782004382D6 /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A2703827285F8782004382D6 /* MobileNetV2.mlmodel */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +48,7 @@
 		9AF618D7285909F5008562F1 /* imageClassificationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageClassificationUITests.swift; sourceTree = "<group>"; };
 		9AF618D9285909F5008562F1 /* imageClassificationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageClassificationUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		9AF618E628591128008562F1 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		A26E0F7828622F3B00E1C4F3 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
 		A2703827285F8782004382D6 /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				A2703827285F8782004382D6 /* MobileNetV2.mlmodel */,
+				A26E0F7828622F3B00E1C4F3 /* Resnet50.mlmodel */,
 				9AF618BC285909F5008562F1 /* imageClassificationApp.swift */,
 				9AF618BE285909F5008562F1 /* ContentView.swift */,
 				9AF618C0285909F5008562F1 /* Assets.xcassets */,
@@ -263,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A26E0F7928622F3B00E1C4F3 /* Resnet50.mlmodel in Sources */,
 				9AF618E728591128008562F1 /* UIImage+Extensions.swift in Sources */,
 				9AF618BF285909F5008562F1 /* ContentView.swift in Sources */,
 				A2703828285F8782004382D6 /* MobileNetV2.mlmodel in Sources */,
